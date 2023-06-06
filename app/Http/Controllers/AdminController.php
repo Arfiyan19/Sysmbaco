@@ -34,7 +34,7 @@ class AdminController extends Controller
     public function profile()
     {
         $profile = Auth()->user();
-        // return $profile;
+        // return $profile;etesting
         return view('backend.users.profile')->with('profile', $profile);
     }
 
