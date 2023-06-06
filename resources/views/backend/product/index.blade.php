@@ -83,7 +83,7 @@
               @if($product->photo)
               @php
               $photo=explode(',',$product->photo);
-              <!-- // dd($photo); -->
+              // dd($photo);
               @endphp
               <img src="{{$photo[0]}}" class="img-fluid zoom" style="max-width:80px" alt="{{$product->photo}}">
               @else
